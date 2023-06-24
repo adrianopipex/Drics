@@ -1,0 +1,5 @@
+id_rule, nm_rule, ds_rule
+1,men_weekend,`day_of_week`in['Saturday','Sunday']&`customer_gender`=='MALE'
+2,men_week,`day_of_week`not in['Saturday','Sunday']&`customer_gender`=='MALE'
+3,women_weekend,`day_of_week`in['Saturday','Sunday']&`customer_gender`=='FEMALE'
+4,women_week,`day_of_week`not in['Saturday','Sunday']&`customer_gender`=='FEMALE'
